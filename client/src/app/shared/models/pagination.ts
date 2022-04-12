@@ -1,8 +1,8 @@
-import { Prdouct } from './product';
+import { Product } from './product';
 
 export interface Pagination {
   pageIndex: number;
   pageSize: number;
   count: number;
-  data: Prdouct[];
+  data: Product[];
 }
