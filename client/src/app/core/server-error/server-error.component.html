@@ -1,0 +1,9 @@
+<div class="container">
+  <h4>Internal Server Error: - refresing the page will clear the error</h4>
+  <ng-container *ngIf="error">
+    <h5>error: {{error.message}}</h5>
+    <code class="mt-5 bg-light">{{error.details}}</code>
+
+  </ng-container>
+
+</div>
